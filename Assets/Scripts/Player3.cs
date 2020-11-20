@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class Player3 : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class Player3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        rigidbody = GetComponent<Rigidbody2D>();  
     }
 
     // Update is called once per frame
@@ -29,4 +30,3 @@ public class Player3 : MonoBehaviour
         }
     }
 }
-

@@ -38,19 +38,19 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     {
         if(PhotonNetwork.LocalPlayer.ActorNumber == 1)
         {
-            PhotonNetwork.Instantiate(this.playerPrefab2.name, new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
+            PhotonNetwork.Instantiate(this.playerPrefab2.name, new Vector3(10f, 0f, 0f), Quaternion.identity, 0);
         }
         if (PhotonNetwork.LocalPlayer.ActorNumber == 2)
         {
-            PhotonNetwork.Instantiate(this.playerPrefab3.name, new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
+            PhotonNetwork.Instantiate(this.playerPrefab3.name, new Vector3(10f, 0f, 0f), Quaternion.identity, 0);
         }
         if (PhotonNetwork.LocalPlayer.ActorNumber == 3)
         {
-            PhotonNetwork.Instantiate(this.playerPrefab3.name, new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
+            PhotonNetwork.Instantiate(this.playerPrefab3.name, new Vector3(10f, 0f, 0f), Quaternion.identity, 0);
         }
         if (PhotonNetwork.LocalPlayer.ActorNumber == 4)
         {
-            PhotonNetwork.Instantiate(this.playerPrefab4.name, new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
+            PhotonNetwork.Instantiate(this.playerPrefab4.name, new Vector3(10f, 0f, 0f), Quaternion.identity, 0);
         }
         //PhotonNetwork.Instantiate(this.playerPrefab1.name, new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
         //PhotonNetwork.Instantiate("Player1", transform.position, Quaternion.identity);

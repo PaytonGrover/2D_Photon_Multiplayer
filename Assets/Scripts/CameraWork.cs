@@ -49,7 +49,7 @@ namespace Photon.Pun.Demo.PunBasics
 
 
         // Cache for camera offset
-        Vector3 cameraOffset = Vector3.zero;
+        private Vector3 cameraOffset;
 
 
         #endregion
@@ -63,6 +63,7 @@ namespace Photon.Pun.Demo.PunBasics
         /// </summary>
         void Start()
         {
+            cameraOffset = new Vector3(0,0,-10);
             // Start following the target if wanted.
             if (followOnStart)
             {
@@ -119,10 +120,6 @@ namespace Photon.Pun.Demo.PunBasics
         /// </summary>
         void Follow()
         {
-            cameraOffset.z = -distance;
-            cameraOffset.y = height;
-
-
             cameraTransform.position = Vector3.Lerp(cameraTransform.position, this.transform.position + this.transform.TransformVector(cameraOffset), smoothSpeed * Time.deltaTime);
 
 
@@ -132,10 +129,6 @@ namespace Photon.Pun.Demo.PunBasics
 
         void Cut()
         {
-            cameraOffset.z = -distance;
-            cameraOffset.y = height;
-
-
             cameraTransform.position = this.transform.position + this.transform.TransformVector(cameraOffset);
 
 

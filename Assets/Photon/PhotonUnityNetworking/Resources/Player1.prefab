@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 2386867668717414423}
   - component: {fileID: 2790894649925412238}
   - component: {fileID: 8633607311053439621}
+  - component: {fileID: 2215139536956079322}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -281,7 +282,7 @@ MonoBehaviour:
   distance: 5
   height: 4
   centerOffset: {x: 0, y: 0, z: 0}
-  followOnStart: 1
+  followOnStart: 0
   smoothSpeed: 0.125
 --- !u!114 &8633607311053439621
 MonoBehaviour:
@@ -298,3 +299,17 @@ MonoBehaviour:
   scriptsToIgnore:
   - {fileID: 1709241366055179775}
   - {fileID: 8633607311053439621}
+--- !u!114 &2215139536956079322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709241366055179760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a54f73809a3bc488291b62b9a7cd91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  jumpForce: 0

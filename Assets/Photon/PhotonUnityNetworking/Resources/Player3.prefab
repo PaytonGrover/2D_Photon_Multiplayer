@@ -237,5 +237,5 @@ MonoBehaviour:
   distance: 500
   height: 4
   centerOffset: {x: 0, y: 0, z: 0}
-  followOnStart: 1
+  followOnStart: 0
   smoothSpeed: 0.125

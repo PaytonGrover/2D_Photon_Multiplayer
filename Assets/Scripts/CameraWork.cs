@@ -39,6 +39,8 @@ namespace Photon.Pun.Demo.PunBasics
         [SerializeField]
         private float smoothSpeed = 0.125f;
 
+        private Camera camera;
+
 
         // cached transform of the target
         Transform cameraTransform;
@@ -63,7 +65,8 @@ namespace Photon.Pun.Demo.PunBasics
         /// </summary>
         void Start()
         {
-            cameraOffset = new Vector3(0,0,-10);
+            camera = new Camera();
+            cameraOffset = camera.transform.position;
             // Start following the target if wanted.
             if (followOnStart)
             {
@@ -102,7 +105,7 @@ namespace Photon.Pun.Demo.PunBasics
         /// </summary>
         public void OnStartFollowing()
         {
-            cameraTransform = Camera.main.transform;
+            cameraTransform = camera.transform;
             isFollowing = true;
             // we don't smooth anything, we go straight to the right camera shot
             Cut();

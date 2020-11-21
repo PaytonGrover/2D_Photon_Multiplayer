@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -59,14 +60,18 @@ namespace Photon.Pun.Demo.PunBasics
 
         #region MonoBehaviour Callbacks
 
+        private void OnEnable()
+        {
+            cameraOffset = new Vector3(0,0,-distance);
+        }
+
 
         /// <summary>
         /// MonoBehaviour method called on GameObject by Unity during initialization phase
         /// </summary>
         void Start()
         {
-            camera = new Camera();
-            cameraOffset = new Vector3(0,0,-10);
+            camera = Camera.current;
             // Start following the target if wanted.
             if (followOnStart)
             {
@@ -105,7 +110,16 @@ namespace Photon.Pun.Demo.PunBasics
         /// </summary>
         public void OnStartFollowing()
         {
-            cameraTransform = camera.transform;
+            if (camera != null)
+            {
+                cameraTransform = camera.transform;
+            }
+            else
+            {
+                camera = Camera.current;
+                if (!(camera is null)) cameraTransform = camera.transform;
+            }
+
             isFollowing = true;
             // we don't smooth anything, we go straight to the right camera shot
             Cut();

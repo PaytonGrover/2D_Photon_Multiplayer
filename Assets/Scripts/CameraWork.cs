@@ -66,7 +66,7 @@ namespace Photon.Pun.Demo.PunBasics
         void Start()
         {
             camera = new Camera();
-            cameraOffset = camera.transform.position;
+            cameraOffset = new Vector3(0,0,-10);
             // Start following the target if wanted.
             if (followOnStart)
             {

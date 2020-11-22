@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ButtonOne
+  - ButtonTwo
+  - ButtonThree
+  - ButtonFour
+  - ButtonFive
+  - ButtonSix
+  - ButtonSeven
+  - ButtonEight
+  - ButtonNine
+  - ButtonTen
+  - ButtonEleven
+  - ButtonTwelve
+  - ButtonThirteen
+  - Win
   layers:
   - Default
   - TransparentFX

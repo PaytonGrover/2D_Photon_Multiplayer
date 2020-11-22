@@ -26,10 +26,7 @@ public class PlayerMovement : MonoBehaviour
             x = Input.GetAxis("Horizontal");
             transform.position += (Vector3) new Vector2(x * speed * Time.deltaTime, 0);
         }
-    }
-
-    private void FixedUpdate()
-    {
+       
         if (photonView.IsMine)
         {
             if (Input.GetButtonDown("Jump"))

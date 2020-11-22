@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class OpenDoors : MonoBehaviour
 {
@@ -41,11 +42,22 @@ public class OpenDoors : MonoBehaviour
     public GameObject ButtonTwelve;
     public GameObject DoorTwelve;
 
-       public GameObject Win;
+    public GameObject Player1;
+    public GameObject Player2;
+    public GameObject Player3;
+    public GameObject Player4;
+
+
+    public GameObject Win;
+    [SerializeField]
+    private Text WinText;
+    [SerializeField]
+    private Text LoseText;
     // Start is called before the first frame update
     void Start()
     {
-
+        WinText.enabled = false;
+        LoseText.enabled = false;
     }
 
 
@@ -172,17 +184,63 @@ public class OpenDoors : MonoBehaviour
             }
         }
 
-        if (gameObject.name == Win.name)
+        if (gameObject.name == Player1.name)
         {
 
             if (collision.gameObject.tag == "Player")
             {
                 Debug.Log("Won");
+                WinText.enabled = true;
 
+            }else
+            {
+                LoseText.enabled = true;
+            }
+        }
+        if (gameObject.name == Player2.name)
+        {
+
+            if (collision.gameObject.tag == "Player")
+            {
+                Debug.Log("Won");
+                WinText.enabled = true;
+
+            }
+            else
+            {
+                LoseText.enabled = true;
+            }
+        }
+        if (gameObject.name == Player3.name)
+        {
+
+            if (collision.gameObject.tag == "Player")
+            {
+                Debug.Log("Won");
+                WinText.enabled = true;
+
+            }
+            else
+            {
+                LoseText.enabled = true;
+            }
+        }
+        if (gameObject.name == Player4.name)
+        {
+
+            if (collision.gameObject.tag == "Player")
+            {
+                Debug.Log("Won");
+                WinText.enabled = true;
+
+            }
+            else
+            {
+                LoseText.enabled = true;
             }
         }
 
-       
+
 
     }
 }

@@ -58,31 +58,58 @@ TextureImporter:
     second: spritesheet(1)_8
   - first:
       213: -8923911374754931897
-    second: Purple_0
+    second: spritesheet(1)_0
   - first:
       213: -5645376200931320486
-    second: Purple_1
+    second: spritesheet(1)_1
   - first:
       213: 9214806981023359645
-    second: Purple_2
+    second: spritesheet(1)_2
   - first:
       213: 7023335495681361342
-    second: Purple_3
+    second: spritesheet(1)_3
   - first:
       213: -753657338236177858
-    second: Purple_4
+    second: spritesheet(1)_4
   - first:
       213: -4490135875324254906
-    second: Purple_5
+    second: spritesheet(1)_5
   - first:
       213: -7312579410625941613
-    second: Purple_6
+    second: spritesheet(1)_6
   - first:
       213: -1563939491729908057
-    second: Purple_7
+    second: spritesheet(1)_7
   - first:
       213: -1126154515564559108
-    second: Purple_8
+    second: spritesheet(1)_8
+  - first:
+      213: 425540150594246983
+    second: spritesheet(1)_0
+  - first:
+      213: 1848981886550272383
+    second: spritesheet(1)_1
+  - first:
+      213: -756404841708597050
+    second: spritesheet(1)_2
+  - first:
+      213: 7971532976478644596
+    second: spritesheet(1)_3
+  - first:
+      213: -928162928061824825
+    second: spritesheet(1)_4
+  - first:
+      213: -783133982943631993
+    second: spritesheet(1)_5
+  - first:
+      213: 5974209506848685618
+    second: spritesheet(1)_6
+  - first:
+      213: 159098843892074066
+    second: spritesheet(1)_7
+  - first:
+      213: -5135478956683897695
+    second: spritesheet(1)_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -126,7 +153,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -145,7 +172,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -157,7 +184,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -169,7 +196,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 3
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -192,190 +219,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Purple_0
+      name: spritesheet(1)_0
       rect:
         serializedVersion: 2
-        x: 98
-        y: 59
-        width: 225
-        height: 282
+        x: 3
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74b1aa4b2e5e72480800000000000000
-      internalID: -8923911374754931897
+      spriteID: 74916d92382d7e500800000000000000
+      internalID: 425540150594246983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_1
+      name: spritesheet(1)_1
       rect:
         serializedVersion: 2
-        x: 518
-        y: 59
-        width: 204
-        height: 282
+        x: 403
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5d5b08714897a1b0800000000000000
-      internalID: -5645376200931320486
+      spriteID: f79e5ffba37e8a910800000000000000
+      internalID: 1848981886550272383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_2
+      name: spritesheet(1)_2
       rect:
         serializedVersion: 2
-        x: 897
-        y: 59
-        width: 225
-        height: 263
+        x: 800
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d92efa9802291ef70800000000000000
-      internalID: 9214806981023359645
+      spriteID: 6c0d297ddc5b085f0800000000000000
+      internalID: -756404841708597050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_3
+      name: spritesheet(1)_3
       rect:
         serializedVersion: 2
-        x: 1318
-        y: 59
-        width: 203
-        height: 282
+        x: 1197
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb5ca7e0c66e77160800000000000000
-      internalID: 7023335495681361342
+      spriteID: 4796252d10390ae60800000000000000
+      internalID: 7971532976478644596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_4
+      name: spritesheet(1)_4
       rect:
         serializedVersion: 2
-        x: 1699
-        y: 59
-        width: 223
-        height: 282
+        x: 1597
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e32f018d4a87a85f0800000000000000
-      internalID: -753657338236177858
+      spriteID: 7c0403b0cb08e13f0800000000000000
+      internalID: -928162928061824825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_5
+      name: spritesheet(1)_5
       rect:
         serializedVersion: 2
-        x: 2098
-        y: 59
-        width: 225
-        height: 263
+        x: 2000
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6456f0e0635dfa1c0800000000000000
-      internalID: -4490135875324254906
+      spriteID: 785ab1faacfb125f0800000000000000
+      internalID: -783133982943631993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_6
+      name: spritesheet(1)_6
       rect:
         serializedVersion: 2
-        x: 2499
-        y: 38
-        width: 223
-        height: 265
+        x: 2394
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39f2ecd05cf748a90800000000000000
-      internalID: -7312579410625941613
+      spriteID: 23e3a7dc4e7a8e250800000000000000
+      internalID: 5974209506848685618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_7
+      name: spritesheet(1)_7
       rect:
         serializedVersion: 2
-        x: 2917
-        y: 78
-        width: 206
-        height: 284
+        x: 2800
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aedb318155cb4ae0800000000000000
-      internalID: -1563939491729908057
+      spriteID: 256cc5a3e8b353200800000000000000
+      internalID: 159098843892074066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Purple_8
+      name: spritesheet(1)_8
       rect:
         serializedVersion: 2
-        x: 3299
-        y: 78
-        width: 223
-        height: 284
+        x: 3200
+        y: 0
+        width: 400
+        height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf482994f681f50f0800000000000000
-      internalID: -1126154515564559108
+      spriteID: 1a4dc5b091d1bb8b0800000000000000
+      internalID: -5135478956683897695
       vertices: []
       indices: 
       edges: []

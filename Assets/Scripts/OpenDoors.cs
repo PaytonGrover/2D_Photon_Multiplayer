@@ -100,7 +100,7 @@ public class OpenDoors : MonoBehaviour
             {
                 Debug.Log("Hit4");
                 Destroy(DoorFour);
-                Destroy(ButtonFour);
+                //Destroy(ButtonFour);
             }
         }
 

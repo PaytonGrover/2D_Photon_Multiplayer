@@ -49,6 +49,7 @@ public class OpenDoors : MonoBehaviour
 
 
     public GameObject Win;
+    public Canvas canvas;
     [SerializeField]
     private Text WinText;
     [SerializeField]
@@ -56,6 +57,7 @@ public class OpenDoors : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        canvas.gameObject.SetActive(false);
         WinText.enabled = false;
         LoseText.enabled = false;
     }
@@ -184,12 +186,13 @@ public class OpenDoors : MonoBehaviour
             }
         }
 
-        if (gameObject.name == Player1.name)
+        if (gameObject.name == Win.name)
         {
 
             if (collision.gameObject.tag == "Player")
             {
                 Debug.Log("Won");
+                canvas.gameObject.SetActive(true);
                 WinText.enabled = true;
 
             }else
@@ -197,51 +200,6 @@ public class OpenDoors : MonoBehaviour
                 LoseText.enabled = true;
             }
         }
-        if (gameObject.name == Player2.name)
-        {
-
-            if (collision.gameObject.tag == "Player")
-            {
-                Debug.Log("Won");
-                WinText.enabled = true;
-
-            }
-            else
-            {
-                LoseText.enabled = true;
-            }
-        }
-        if (gameObject.name == Player3.name)
-        {
-
-            if (collision.gameObject.tag == "Player")
-            {
-                Debug.Log("Won");
-                WinText.enabled = true;
-
-            }
-            else
-            {
-                LoseText.enabled = true;
-            }
-        }
-        if (gameObject.name == Player4.name)
-        {
-
-            if (collision.gameObject.tag == "Player")
-            {
-                Debug.Log("Won");
-                WinText.enabled = true;
-
-            }
-            else
-            {
-                LoseText.enabled = true;
-            }
-        }
-
-
-
     }
 }
     
